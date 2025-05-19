@@ -3,8 +3,10 @@
       {
          "type": "cppbuild",
          "label": "C/C++: gcc build active file",
-         "command": "/usr/bin/gcc",
-         "args": ["-fdiagnostics-color=always", "-g", "${workspaceFolder}/main.c", "-o", "a.out"],
+         // "command": "/usr/bin/gcc",
+         "command": "make",
+         "args": ["all"],
+         // "args": ["-fdiagnostics-color=always", "-g", "${workspaceFolder}/single_linked.c", "-o", "a.out"],
          "options": {
             "cwd": "${workspaceFolder}"
          },
